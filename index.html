@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="calc.css" rel="stylesheet" />
+    <title>Tip calculator app</title>
+  </head>
+  <body>
+    <form>
+    <div class="maincontainer">
+      <h1 class="splitter">S P L I T T E R</h1>
+      <div class="secondcontainer">
+        <div class="firstboxbill">
+          <a class="billtext">Bill</a>
+          <div class="moneyindicatorboxinsidefirstbox">
+            <input type="number" class="amountofmoney" id="amountofmoney" />
+            <!-- <img src="visualside/dollarsign.svg" class="dollarsign" /> -->
+            <!-- <a class="amountofmoney">142.5</a> -->
+          </div>
+        </div>
+        <div class="secondboxselecttips">
+          <a class="selecttiptext">Select Tip %</a>
+          <div class="tipButtons" id="tipButtons">
+            <button
+              class="tip5 alltips"
+              id="tip5"
+           >
+              5%
+              <!-- <a class="text1">5%</a> -->
+            </button>
+            <button class="tip15 alltips" id="tip15"  >
+              15%
+              <!-- <a class="text2">15%</a> -->
+            </button>
+            <button class="tip10 alltips" id="tip10"  >
+              10%
+              <!-- <a class="text3">10%</a> -->
+            </button>
+            <button class="tip25 alltips" id="tip25"  >
+              25%
+              <!-- <a class="text4">25%</a> -->
+            </button>
+            <button class="tip50 alltips" id="tip50"  >
+              50%
+              <!-- <a class="text5">50%</a> -->
+            </button>
+            <input
+              type="number"
+              min="1"  
+              class="customnumber alltips"
+              class="text6"
+              id="customnumber"
+              placeholder="CUSTOM" />
+            
+        </div>
+      </div>
+      <div class="numberofpeoplebox">
+        <a class="numberofpeopletext">Number of People</a>
+        <div class="numberofpeopleinsidebox">
+          <img src="visualside/manfigure.svg" class="manfigure" />
+          <input
+            type="number"
+            class="numberofpeoplenumber"
+            id="numberofpeoplenumber"  min="1" step="1" value="1"
+          />
+        </div>
+      </div>
+      <div class="tipamountbox">
+        <div class="tipamountboxinsidebox">
+          <div class="tipamountboxinsideboxfirstbox">
+            <article class="tipamountext">Tip Amount</article>
+            <article class="persontext1">/ Person</article>
+            <div class="tipamountmoneytext" id="tipamountmoneytext">$0</div>
+          </div>
+
+          <div class="tipamountboxinsideboxfirstbox2">
+            <article class="tipamountext2">Total</article>
+            <article class="persontext2">/ Person</article>
+            <div id="totalamount" class="totalamount" 
+           >$0</div>
+          </div>
+        </div>
+        <button  type="reset" class="resetbox" id="resetbox"  onclick="resetAll()"  >RESET</button>
+      </div>
+    </div>
+  </form>
+    <script src="script.js"></script>
+  </body>
+</html>

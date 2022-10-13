@@ -1,0 +1,618 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid red 1px; */
+}
+
+.maincontainer {
+  position: relative;
+  margin: 0 auto;
+  height: 933px;
+  width: 375px;
+  border-radius: 0px;
+  background: rgba(197, 228, 231, 1);
+}
+.secondcontainer {
+  position: absolute;
+  height: 789px;
+  width: 375px;
+  margin-top: 144px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.2);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.firstboxbill {
+  height: 78px;
+  width: 311px;
+  margin-left: 32px;
+  margin-top: 32px;
+  border-radius: 0px;
+}
+
+.billtext {
+  display: inline-block;
+  height: 24px;
+  width: 47px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(94, 122, 125, 1);
+}
+
+.moneyindicatorboxinsidefirstbox {
+  height: 48px;
+  width: 311px;
+  margin-left: 0px;
+  margin-top: 6px;
+  border-radius: 5px;
+  background: rgba(243, 249, 250, 1);
+  background-image: url("./visualside/dollarsign.svg");
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+.splitter {
+  white-space: wrap;
+  font-family: "Space Mono";
+  display: inline-block;
+  height: 80px;
+  width: 140px;
+  margin-left: 123px;
+  margin-top: 50px;
+  border-radius: 0px;
+  color: rgba(61, 102, 102, 1);
+}
+
+/* .dollarsign {
+  margin-left: 19.255859375px;
+  margin-top: 16.87200927734375px;
+} */
+
+.amountofmoney {
+  height: 36px;
+  width: 270px;
+  margin-left: 40px;
+  margin-top: 6px;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: right;
+  background: rgba(243, 249, 250, 1);
+  border: none;
+}
+
+.secondboxselecttips {
+  height: 216px;
+  width: 311px;
+  margin-left: 32px;
+  margin-top: 32px;
+  border-radius: 0px;
+}
+
+.selecttiptext {
+  display: inline-block;
+  height: 24px;
+  width: 140px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(94, 122, 125, 1);
+}
+
+.tipButtons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  gap: 13px;
+  height: 176px;
+  width: 311px;
+  margin-left: 0px;
+  margin-top: 16px;
+  border-radius: 0px;
+}
+
+.tip5 {
+  justify-content: center;
+  display: flex;
+  height: 48px;
+  width: 146.6311798095703px;
+  background: rgba(0, 71, 75, 1);
+  border-radius: 5px;
+  border: none;
+}
+.tip5 {
+  align-items: center;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+/* .text1 {
+  display: inline-block;
+  height: 36px;
+  width: 112.793212890625px;
+  left: 16.29248046875px;
+  margin-top: 6px;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+} */
+.tip10 {
+  justify-content: center;
+
+  display: flex;
+  height: 48px;
+  width: 146.6311798095703px;
+  background: rgba(0, 71, 75, 1);
+  border-radius: 5px;
+  border: none;
+}
+.tip10 {
+  align-items: center;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* .text3 {
+  display: inline-block;
+  height: 36px;
+  width: 112.793212890625px;
+  left: 16.29248046875px;
+  margin-top: 6px;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+} */
+
+.tip15 {
+  justify-content: center;
+
+  display: flex;
+
+  height: 48px;
+  width: 146.6311798095703px;
+  background: rgba(38, 194, 174, 1);
+
+  border-radius: 5px;
+  border: none;
+}
+.tip15 {
+  align-items: center;
+
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(0, 71, 75, 1);
+}
+/* .text2 {
+  display: inline-block;
+  height: 36px;
+  width: 112.793212890625px;
+  left: 16.29248046875px;
+  margin-top: 6px;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(0, 71, 75, 1);
+} */
+
+.tip25 {
+  justify-content: center;
+
+  display: flex;
+  height: 48px;
+  width: 146.6311798095703px;
+  background: rgba(0, 71, 75, 1);
+  border-radius: 5px;
+  border: none;
+}
+.tip25 {
+  align-items: center;
+
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+/* .text4 {
+  display: inline-block;
+  height: 36px;
+  width: 112.793212890625px;
+  left: 16.29248046875px;
+  margin-top: 6px;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+} */
+
+.tip50 {
+  justify-content: center;
+
+  display: flex;
+  height: 48px;
+  width: 146.6311798095703px;
+  background: rgba(0, 71, 75, 1);
+  border-radius: 5px;
+  border: none;
+}
+.tip50 {
+  align-items: center;
+
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+/* .text5 {
+  display: inline-block;
+  height: 36px;
+  width: 112.793212890625px;
+  left: 16.29248046875px;
+  margin-top: 6px;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+} */
+.customnumber {
+  justify-content: center;
+
+  display: flex;
+  height: 48px;
+  width: 146.6311798095703px;
+  border-radius: 5px;
+  background: rgba(243, 249, 250, 1);
+  border: none;
+}
+.customnumber {
+  display: inline-block;
+
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(84, 120, 120, 1);
+}
+::placeholder {
+  height: 36px;
+  width: 112.793212890625px;
+  left: 16.29248046875px;
+  margin-top: 6px;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(84, 120, 120, 1);
+}
+
+.numberofpeoplebox {
+  height: 78px;
+  width: 311px;
+  margin-left: 32px;
+  margin-top: 32px;
+  border-radius: 0px;
+}
+
+.numberofpeopletext {
+  height: 24px;
+  width: 186px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: rgba(94, 122, 125, 1);
+}
+
+.numberofpeopleinsidebox {
+  height: 48px;
+  width: 311px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 5px;
+  background: rgba(243, 249, 250, 1);
+}
+.manfigure {
+  height: 16px;
+  width: 13px;
+  margin-left: 17px;
+  margin-top: 16px;
+  border-radius: 0px;
+}
+
+.numberofpeoplenumber {
+  position: absolute;
+  height: 36px;
+  width: 250px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: "space Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: right;
+  background: rgba(243, 249, 250, 1);
+  border: none;
+}
+.tipamountbox {
+  height: 257px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 32px;
+  border-radius: 15px;
+  background: rgba(0, 71, 75, 1);
+}
+
+.tipamountboxinsidebox {
+  position: relative;
+
+  height: 116px;
+  width: 281px;
+  margin-left: 24px;
+  margin-top: 37px;
+  border-radius: 0px;
+}
+
+.tipamountboxinsideboxfirstbox {
+  position: absolute;
+  height: 48px;
+  width: 281px;
+  margin-left: 0px;
+  margin-top: 39px;
+  border-radius: 0px;
+}
+.tipamountext {
+  display: inline-block;
+  position: absolute;
+
+  height: 24px;
+  width: 98px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.persontext1 {
+  display: inline-block;
+  position: absolute;
+
+  height: 19px;
+  width: 64px;
+  margin-left: 0px;
+  margin-top: 24px;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(127, 157, 159, 1);
+}
+.tipamountmoneytext {
+  display: inline-block;
+  position: absolute;
+  height: 47px;
+  width: 110px;
+  margin-left: 163px;
+  margin-top: 0px;
+  font-family: "Space Mono";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.6666666865348816px;
+  text-align: right;
+  color: rgba(38, 194, 174, 1);
+}
+
+.tipamountboxinsideboxfirstbox2 {
+  position: absolute;
+  height: 48px;
+  width: 281px;
+  margin-left: 0px;
+  margin-top: 100px;
+  border-radius: 0px;
+}
+.tipamountext2 {
+  display: inline-block;
+  position: absolute;
+
+  height: 24px;
+  width: 98px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.persontext2 {
+  display: inline-block;
+  position: absolute;
+
+  height: 19px;
+  width: 64px;
+  margin-left: 0px;
+  margin-top: 24px;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(127, 157, 159, 1);
+}
+.totalamount {
+  display: inline-block;
+  white-space: wrap;
+  position: absolute;
+  height: 47px;
+  width: 110px;
+  margin-left: 162px;
+  margin-top: 0px;
+  font-family: "Space Mono";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.6666666865348816px;
+  text-align: right;
+  color: rgba(38, 194, 174, 1);
+}
+
+.resetbox {
+  position: absolute;
+
+  height: 48px;
+  width: 281px;
+  margin-left: 24px;
+  margin-top: 65px;
+  border-radius: 5px;
+  background: rgba(38, 194, 174, 1);
+}
+
+.resetbox {
+  display: inline-block;
+  position: absolute;
+  border: none;
+  font-family: "Space Mono";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(0, 71, 75, 1);
+}
+
+/* desktop size */
+
+@media only screen and (min-width: 1440px) {
+  .maincontainer {
+    height: 1024px;
+    width: 1440px;
+
+    border-radius: 0px;
+  }
+
+  .splitter {
+    margin-left: 677px;
+    margin-top: 163px;
+    border-radius: 0px;
+  }
+  .secondcontainer {
+    height: 481px;
+    width: 920px;
+    margin-left: 270px;
+    margin-top: 87px;
+    border-radius: 25px;
+  }
+  .moneyindicatorboxinsidefirstbox {
+    height: 48px;
+    width: 379px;
+
+    border-radius: 5px;
+  }
+
+  .secondboxselecttips {
+    height: 152px;
+    width: 379px;
+
+    border-radius: 0px;
+  }
+  .tipButtons {
+    height: 112px;
+    width: 379px;
+
+    border-radius: 0px;
+  }
+
+  .alltips {
+    height: 48px;
+    width: 117px;
+
+    border-radius: 5px;
+  }
+
+  .numberofpeopleinsidebox {
+    height: 48px;
+    width: 379px;
+  }
+  .numberofpeoplenumber {
+    margin-left: 70px;
+  }
+  .tipamountbox {
+    height: 417px;
+    width: 413px;
+
+    margin-left: 470px;
+    margin-top: -410px;
+    border-radius: 15px;
+  }
+  /* .tipamountboxinsideboxfirstbox {
+  } */
+}
